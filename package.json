@@ -1,0 +1,17 @@
+{
+  "name": "template-ts-module-web",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "cd dist && npm publish --access=public",
+    "prepublish": "tsc"
+  },
+  "keywords": [],
+  "author": "Jonathan Santos <brjs.santos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
